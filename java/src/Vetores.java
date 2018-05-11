@@ -32,7 +32,12 @@ public class Vetores {
 		}
 		
 		
-		// Determinando length: valores pré-definidos
+		// Determinando length: Array initializer
+		/*
+		 * If you want to initialize an array, you don't need
+		 * to attribute one per one...
+		*/
+		
 		
 		int num5[] = {1,2,8};/*
 		Vetor num4 com 3 posições: 
@@ -43,6 +48,40 @@ public class Vetores {
 			num5[1] == 2
 			num5[2] == 8
 	*/
+		
+		System.out.println();
+		
+		for (int i=0; i<3; i++) {
+			System.out.printf("num[%d] = %d\n",i,num5[i]);
+		}
+		
+		int num6[] = {1,5,9};
+		
+		System.out.println("\n" + num6[2]);
+		
+		
+		// Array table
+		
+		System.out.println("\nIndex\tValue");
+		int isaac[] = {1,1,2,3,5};
+		
+		for (int i=0; i < isaac.length; i++) {
+			System.out.printf("[%d]\t%d\n",i,isaac[i]);
+		}
+		
+		
+		// Somming array
+		
+		int bucky[] = {1,2,5,6,8};
+		int sum=0;
+		
+		for (int i=0; i < bucky.length; i++) {
+			sum+= bucky[i];
+		}
+		
+		System.out.println("\nsum = " + sum);
+		
+		
 	}
 
 }
