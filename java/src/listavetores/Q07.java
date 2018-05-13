@@ -1,7 +1,7 @@
 package listavetores;
 import java.util.Scanner;
 
-public class Q7 {
+public class Q07 {
 
 	public static void main(String[] args) {
 		Scanner read = new Scanner(System.in);
