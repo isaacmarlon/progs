@@ -23,7 +23,15 @@ public class Q17 {
 				++pass;
 				i = -1;
 			}
+		}
 		
+		for (int i = 0, j = 0; i < a1.length; i++) {
+			if (a1[i] == a2[i]) {
+				a3[j] = a1[i];
+			}
+			else if (){
+				
+			}
 		}
 	}
 
