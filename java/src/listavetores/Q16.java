@@ -6,7 +6,7 @@ public class Q16 {
 	public static void main(String[] args) {
 		Scanner read = new Scanner(System.in);
 		
-		int num[] = new int[10];
+		int num[] = new int[4];
 		int qntDif = 0;
 		
 		for (int i = 0; i < num.length; i++) {
@@ -28,8 +28,8 @@ public class Q16 {
 		}
 		
 		int dif[] = new int[qntDif];
-
-		for (int i = 0, j = 0, k = 0; j < (dif.length); j++) {
+		
+		for (int i = 0, j = 0, k = 0; k < dif.length; j++) {
 			if (j == 0) {
 				dif[k] = j;
 				++k;
