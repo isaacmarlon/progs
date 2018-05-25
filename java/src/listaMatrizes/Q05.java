@@ -1,4 +1,4 @@
-package matriz;
+package listaMatrizes;
 
 public class Q05 {
     

@@ -1,4 +1,4 @@
-package matriz;
+package listaMatrizes;
 import java.util.Scanner;
 
 public class Q01 {
