@@ -6,8 +6,8 @@ public class Q10 {
 	public static void main(String[] args) {
 		Scanner leia = new Scanner(System.in);
 		
-		final int LINHAS = 2;
-		final int COLUNAS = 4;
+		final int LINHAS = 5;
+		final int COLUNAS = 7;
 		
 		float m[][] = new float[LINHAS][COLUNAS];
 		
