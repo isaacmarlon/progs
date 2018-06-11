@@ -9,7 +9,7 @@ public class Tal {
 				++i;
 				++j;
 			}
-			else if ((j == i) && (i > 0) j = 0;
+			else if ((j == i) && (i > 0)) j = 0;
 			else if (i >= 0) {
 				++j;
 				--i;
