@@ -14,8 +14,6 @@ public class Main {
 		System.out.println(Operacoes.divisao(3, 2));
 		
 		int[] lele = new int[2];
-		
-		lala
 	}
 	
 }
