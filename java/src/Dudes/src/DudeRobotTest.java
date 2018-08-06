@@ -44,12 +44,16 @@ public class DudeRobotTest {
         }
     }
     
-    public static void printAges() {
+    public static void printRobots() {
         
         for (DudeRobot robot : robots) {
             
+            // Name
             System.out.println(robot.getName() + " - ");
+            
+            // Age
             System.out.println("Age: " + robot.getAge() + "\n");
+            
             
         }
         
@@ -63,7 +67,7 @@ public class DudeRobotTest {
         
         setAges(10);
         
-        printAges();
+        //printRobots();
 
     }
 
