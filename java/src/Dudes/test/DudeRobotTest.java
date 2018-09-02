@@ -67,7 +67,7 @@ public class DudeRobotTest {
         
         setAges(10);
         
-        //printRobots();
+        printRobots();
 
     }
 
